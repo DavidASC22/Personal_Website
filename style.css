@@ -1,11 +1,10 @@
-  
- html{
-   border: solid rgb(173, 173, 227) 10px;
- }
+html{
+   background-color: #aeaffe;
+}
  #navigation_bar{
     font-family:system-ui, -apple-system;
-    background-color: #ffffff;
-    color: rgb(132, 154, 194);
+    background-color: #4876e9;
+    color: #4876e9;;
     font-size: 20px;
     padding: 15px;
     display: flex;
@@ -21,26 +20,27 @@
     width: 20%;
     text-align: center;
     text-decoration: none;
-    color: rgb(132, 154, 194);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
  }
 
  #greeting_message{
     display: flex;
     justify-content: center;
     font-family: system-ui, -apple-system;
-    background-color: rgb(147, 172, 206);
+    background-color: #aeaffe;
  }
 
  #david{
     display: flex;
     justify-content: center;
     font-family: system-ui, -apple-system;
-    background-color: rgb(159, 176, 201);
+    background-color: #bcbeff;
  }
 
  #greeting_message{
     font-size: 80px;
-    color:white;
+    color:#ffffff;
  }
  #david{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,13 +50,12 @@
  }
 
  #Biography{
-    background-color: rgb(238, 237, 237);
+    background-color: rgb(249, 247, 247);
     color: rgb(115, 156, 188);
     font-family: Verdana;
     text-decoration: none;
     font-weight: 50;
     margin-top: 10px;
-
 }
 
 
@@ -94,5 +93,15 @@
     height:100px;
 }
 
+#a, #b, #git{
+   height: 100px;
+margin-left: 190px;
+padding: 15px;
+margin-top: 10px;
+}
 
+
+#clubs{
+   background-color:  #aeaffe;
+}
  
